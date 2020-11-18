@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="microservicecloud-consumer-dept-80:war exploded">
+    <output-path>$PROJECT_DIR$/../miroservicecloud/microservicecloud-consumer-dept-80/target/microservicecloud-consumer-dept-80</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>microservicecloud-consumer-dept-80</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="microservicecloud-consumer-dept-80" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../miroservicecloud/microservicecloud-consumer-dept-80/target/microservicecloud-consumer-dept-80/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="microservicecloud-consumer-dept-80/web/Web" />
+    </root>
+  </artifact>
+</component>
